@@ -1,0 +1,107 @@
+body{
+    color: #ccc;
+    background-image: url("milky-way-2695569__340.jpg");
+    font-size: 150%;
+    filter: contrast(10);
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    background-color: #ccc;
+    background-position: center;
+    background-attachment:fixed;
+}
+#head{
+    animation-name: head;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes head {
+    50%{
+        color: yellow;
+    }
+    100%{
+        color: rgba(241, 14, 230, 0.788);
+    }
+}
+header{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    font-variant: small-caps;
+}
+#heading{
+    width:50%;
+}
+#image{
+    float: left;
+    padding-left: 15px;
+    margin: 0px;
+    height:6%;
+    width:6%;
+}
+input{
+    height: 20px;
+    margin: 10px;
+}
+.sec1{
+    text-align: center;
+    border: 2px none black;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#bal{
+    font-weight: 900;
+    font-size: 150%;
+}
+.sec2{
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 10px;
+    padding: 10px;
+    border-style: none;
+}
+.sec2 table,.sec2 td{
+    text-align: center;
+    padding: 10px;
+    border-style: none;
+}
+.sec3{
+    margin-top: 10px;
+    text-align: center;
+    border: 2px none rgb(18, 5, 73);
+    margin-bottom: 10px;
+    width: 70%;
+}
+#accNum{
+    font-weight: 700;        
+    }
+
+#accName{
+    font-weight: 700;
+}
+
+#custNum{
+    font-weight: 700;
+}
+
+.sec4{
+    border: 2px none black;
+    padding: 20px;
+    text-align: center;
+}
+.sec5{
+    text-align: center;
+    border: 2px none black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 10px;
+    padding: 10px;
+}
+.sec5 table,.sec5 td{
+    font-weight: 700;
+    border: 1px solid rgb(241, 235, 235) ;
+    border-radius: 10px;
+    width: 60%;
+}

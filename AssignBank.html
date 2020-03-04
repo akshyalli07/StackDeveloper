@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bank's Deposit Withdrawal</title>
+    <link rel="icon" href="Bank Project/GringottsBankLogo.jpeg">
+    <link rel="stylesheet" href="AssignBank.css">
+</head>
+<body>
+    <center>
+        <header id="head">
+            <img src="Bank Project/GringottsBankLogo.jpeg" alt="Bank's Image" id="image">
+            <h1 id="heading">Gringott's <sub style="font-size: 20px;">A Wizard's Bank</sub></h1>
+        </header>
+        <hr>
+        <header>
+            <h3>Welcome To our Bank</h3>
+            <h1>Mr Harry James Potter</h1>
+        </header>
+    </center>
+        
+    <center>
+    <nav class="sec1">
+        <h3>Available Balance</h3>
+        <p id="bal">0000.00</p>
+    </nav>
+
+    <div class="sec2">
+        <center>
+        <table id="tab">
+            <tr>
+                <td>Deposit</td>
+                <td id="depo"> 0000.00</td>
+            </tr>
+            <tr>
+                <td>Withdraw</td>
+                <td id="withdraw">0000.00</td>
+            </tr>
+        </table>
+    </center>
+</div>
+
+    <div class="sec3">
+            <center>
+                <p id="accNum">Account Number: 31410000116990</p>
+                <p id="accName">Account Holder Name: Harry James Potter</p>
+                <p id="custNum">Customer Number: 720XXXX875</p>
+            </center>
+        </div>
+    <div class="sec4">
+            <center>
+                <input type="text" id="drpdown" autofocus>
+                <!-- <datalist id="a">
+                    <option value="Select" selected></option>
+                    <option value="Deposit"></option>
+                    <option value="Withdraw"></option>
+                </datalist> -->
+                <input type="text" name="deposit" id="depowith" placeholder="Description">
+                <input type="number" name="Number" id="amount">
+                <input type="button" name="Submit" id="action" value="Submit">
+
+            </center>
+        </div>
+    <div class="sec5">
+            <center>
+                <caption style="font-size: 30px;"> <h3>PassBook</h3></caption>
+                <table id="passbook">
+                    <tr>
+                        <td>Transaction type</td>
+                        <td>Transaction Date</td>
+                        <td>Previous Balance</td>
+                        <td>Transaction amount</td>
+                        <td>Description</td>
+                        <td>Closing Balance</td>
+                    </tr>
+                </table>
+            </center>
+    </div>
+    </center>
+</body>
+<script src="Bank Project/jquery-3.4.1.min.js"></script>
+<script src="AssignBank.js"></script>
+</html>
